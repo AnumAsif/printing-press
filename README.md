@@ -7,3 +7,5 @@
 ##Known Bugs
 
 ##Support and contact details
+
+##License
