@@ -23,6 +23,8 @@
     There are currently no known bugs
 
  **✨ Contributors ✨**
+     | :---: | :---: | :---: | :---: | :---: |
+
 |[<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br /><sub><b>
  Anum Asif</b></sub>](https://github.com/AnumAsif)|[<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br /> <sub><b>
  NkiroteKim <b></sub>](https://github.com/NkiroteKim)|[<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
@@ -30,7 +32,6 @@
    <br /><sub><b>Dayud Mohamed Farah</sub></b>](https://github.com/jinka)|[<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
    <br /><sub><b>Ryan  Muuo</sub><b>](https://github.com/qmuuoryan)|
 
-    | :--: | :--: | :--: | :--: | :--: |
 
 [MIT] (License)
 
