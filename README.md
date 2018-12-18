@@ -26,15 +26,15 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-|✨ All Contributors ✨|
+|**✨ All Contributors ✨**|
 | ---- | ---- |
-|[<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> 
- <sub>**AnumAsif**</sub>](https://github.com/AnumAsif) |[<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <sub> 
- **NkiroteKim**</sub>](https://github.com/NkiroteKim) |[<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
-   <sub>**stella-ndirangu**</sub>](https://github.com/stella-ndirangu) |[<img 
+|![<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> 
+ <sub>**AnumAsif**</sub>](https://github.com/AnumAsif) ||![<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <sub> 
+ **NkiroteKim**</sub>](https://github.com/NkiroteKim) ||![<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
+   <sub>**stella-ndirangu**</sub>](https://github.com/stella-ndirangu) ||![<img 
     src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/>  <sub> **Dayud 
-   Mohamed Farah**</sub>](https://github.com/jinka) |[<img 
-   src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> <sub>**Ryan Muuo** </sub>](https://github.com/qmuuoryan) |
+   Mohamed Farah**</sub>](https://github.com/jinka) ||![<img 
+   src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> <sub>**Ryan Muuo** </sub>](https://github.com/qmuuoryan) 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [MIT] (License)
