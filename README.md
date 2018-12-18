@@ -23,7 +23,6 @@
     There are currently no known bugs
 
 ### **✨ Contributors ✨**
-|column 1|column2|column3|
  | -- | -- | -- |
 |[<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br /><sub><b>
  Anum Asif</b></sub>](https://github.com/AnumAsif)|[<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br> <sub><b>
