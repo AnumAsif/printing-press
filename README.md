@@ -23,17 +23,17 @@
     There are currently no known bugs
 
 |**✨ Contributors ✨**|
-| ---- |
+| ---- || ---- || ---- | 
 |[<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br>
- **Anum Asif**](https://github.com/AnumAsif) |
+ Anum Asif](https://github.com/AnumAsif)|
  |[<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br> 
- **NkiroteKim**](https://github.com/NkiroteKim) |
+ NkiroteKim](https://github.com/NkiroteKim)|
  |[<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
-   <br>**stella-ndirangu**](https://github.com/stella-ndirangu) |
+   <br>stella-ndirangu](https://github.com/stella-ndirangu)|
  |[<img src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/> 
-   <br> **Dayud Mohamed Farah**](https://github.com/jinka) |
+   <br>Dayud Mohamed Farah](https://github.com/jinka)|
    |[<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
-   <br>**Ryan  Muuo**](https://github.com/qmuuoryan) |
+   <br>Ryan  Muuo](https://github.com/qmuuoryan)|
 
 [MIT] (License)
 
@@ -57,5 +57,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
+[<img src="https://avatars.githubusercontent.com/u/2037007?v=3" width="100px;"/><br /><sub><b>James Monger</b></sub>](https://github.com/Jameskmonger)<br />
 
