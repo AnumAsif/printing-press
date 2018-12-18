@@ -23,13 +23,15 @@
     There are currently no known bugs
 
 ### **✨ Contributors ✨**
-Column 1 | Column 2 | Column 3| Column 4|Column 5|
---- | --- | ---| ---| --- |
 [<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br>
- Anum Asif](https://github.com/AnumAsif)|[<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br> 
- NkiroteKim](https://github.com/NkiroteKim)|[<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
-   <br>stella-ndirangu](https://github.com/stella-ndirangu)|[<img src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/> 
-   <br>Dayud Mohamed Farah](https://github.com/jinka)|[<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
+ Anum Asif](https://github.com/AnumAsif)
+ [<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br> 
+ NkiroteKim](https://github.com/NkiroteKim)
+ [<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
+   <br>stella-ndirangu](https://github.com/stella-ndirangu)
+[<img src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/> 
+   <br>Dayud Mohamed Farah](https://github.com/jinka)
+[<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
    <br>Ryan  Muuo](https://github.com/qmuuoryan)
 
 [MIT] (License)
