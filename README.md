@@ -23,8 +23,8 @@
     There are currently no known bugs
 
 ### **✨ Contributors ✨**
-Column 1 | Column 2 | Column 3
---- | --- | ---
+Column 1 | Column 2 | Column 3| Column 4|Column 5|
+--- | --- | ---| ---| --- |
 [<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br>
  Anum Asif](https://github.com/AnumAsif)|[<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br> 
  NkiroteKim](https://github.com/NkiroteKim)|[<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
