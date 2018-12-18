@@ -25,17 +25,16 @@
  **✨ Contributors ✨**
      | ---- | ---- | ---- | ---- | ---- |
 
-|[<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br /><sub><b>
- Anum Asif</b></sub>](https://github.com/AnumAsif)|
- [<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br /> <sub><b>
- NkiroteKim <b></sub>](https://github.com/NkiroteKim)|
- [<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
-   <br /><sub><b>stella-ndirangu</sub></b>](https://github.com/stella-ndirangu)|
-   [<img src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/> 
-   <br /><sub><b>Dayud Mohamed Farah</sub></b>](https://github.com/jinka)|
-   [<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
-   <br /><sub><b>Ryan  Muuo</sub><b>](https://github.com/qmuuoryan)|
-     | ---- | ---- | ---- | ---- | ---- |
+| [<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br /><sub><b>
+ Anum Asif</b></sub>](https://github.com/AnumAsif)| [<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br /> <sub><b>
+ NkiroteKim <b></sub>](https://github.com/NkiroteKim) | [<img src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
+   <br /><sub><b>stella-ndirangu</sub></b>](https://github.com/stella-ndirangu)| [<img src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/> 
+   <br /><sub><b>Dayud Mohamed Farah</sub></b>](https://github.com/jinka) | [<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
+   <br /><sub><b>Ryan  Muuo</sub><b>](https://github.com/qmuuoryan) |
+
+
+
+     | [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub><b>Kent C. Dodds</b></sub>](https://kentcdodds.com) | [<img src="https://avatars.githubusercontent.com/u/6177621?v=3" width="100px;"/><br /><sub><b>Divjot Singh</b></sub>](http://bogas04.github.io) | [<img src="https://avatars.githubusercontent.com/u/1282980?v=3" width="100px;"/><br /><sub><b>Ben Briggs</b></sub>](http://beneb.info) | [<img src="https://avatars.githubusercontent.com/u/2037007?v=3" width="100px;"/><br /><sub><b>James Monger</b></sub>](https://github.com/Jameskmonger) | [<img src="https://avatars.githubusercontent.com/u/3869412?v=3" width="100px;"/><br /><sub><b>Jeroen Engels</b></sub>](https://github.com/jfmengels) |
 
 
 [MIT] (License)
