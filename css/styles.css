@@ -1,7 +1,18 @@
 body{
   background: url(../images/press_bg.jpg);
   background-size: cover;
-  display: inline;
+
+}
+.container-fluid{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navBar{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  left: 0;
 }
 .navBar{
   overflow: hidden;
@@ -21,7 +32,6 @@ body{
   background-color: #f9f3d9;
 }
 .logo {
-  text-align: center;
   margin-top: 20px;
 }
 .logo img {
@@ -31,10 +41,9 @@ body{
   text-align: center;
 }
 .motto p {
-  margin: 10px;
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Sofia';
-  color: #000;
+  color: #fff;
 
   animation: type 4s steps(38, end);
   overflow: hidden;
@@ -42,14 +51,14 @@ body{
 }
 
 @keyframes type {
-  0% { width: 0; }
-  100% {width: 38ch;}
+  from { width: 0; }
+  to {width: 100%;}
 }
 
 .topnav {
   text-align: center;
   background-color: transparent;
-  margin-top: 20px;
+  margin-top: 80px;
   overflow: hidden;
 }
 .topnav .topnav-centered a{
@@ -66,4 +75,64 @@ body{
 .topnav a.active {
   background-color: #A72611;
   color: white;
+}
+.page-footer{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+.page-footer img {
+  margin-bottom: 8px;
+}
+.panel-footer {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  background-color: #A72611;
+  border-top: 0px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-family: 'Lato';
+  font-size: 20px;
+  color: #fff;
+}
+.page-footer .footer-copyright{
+  padding-top: 20px;
+  text-align: center;
+  background-color: #A72611;
+  color: #fff;
+  font-family: 'Acme';
+  font-size: 20px;
+}
+.footer-copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+.page-footer h3{
+  font-family: 'Acme';
+}
+.social ul li {
+  list-style-type: none;
+  display: inline;
+}
+.social {
+  text-align: center;
+}
+.footer-image{
+  margin-top: 40px;
+}
+.sitemap ul li {
+  list-style-type: none;
+  padding: 6px;
+  text-decoration: underline;
+}
+.sitemap a {
+  color: #fff;
+}
+.sitemap a:hover {
+  color: #ffb3b3;
+}
+.contact-info{
+  text-align: center;
 }
