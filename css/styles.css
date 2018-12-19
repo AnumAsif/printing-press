@@ -3,6 +3,23 @@ body{
   background-size: cover;
   display: inline;
 }
+.navBar{
+  overflow: hidden;
+  background-color: #f2ebca;
+  position:fixed;
+  top:0;
+  width:100%;
+  left:0;
+}
+.formBody{
+  margin-top:250px;
+}
+.panelHeading{
+  
+}
+.panel-body{
+  background-color: #f9f3d9;
+}
 .logo {
   text-align: center;
   margin-top: 20px;
