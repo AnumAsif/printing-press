@@ -1,72 +1,96 @@
-body{
+body {
   background: url(../images/press_bg.jpg);
   background-size: cover;
-
 }
-.container-fluid{
+
+.container-fluid {
   padding-right: 25px;
   padding-left: 25px;
 }
-.navBar{
+
+.navBar {
   position: fixed;
-  overflow: hidden;
+  overflow: visible;
   top: 0;
   width: 100%;
   left: 0;
-}
-.logo {
   margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.logo img {
-  margin: 20px;
+
+#myNavbar {
+  background-color: transparent;
+  font-family: 'Acme';
+  text-decoration: underline;
+  padding: 24px 56px;
+  font-size: 30px;
 }
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #A72611;
+  padding: 20px 46px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  background-color: #A72611;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a.active {
+  background-color: #A72611;
+  color: #fff;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu li a {
+  font-size: 20px;
+}
+
 .motto {
+  #A72611;
   text-align: center;
 }
+
 .motto p {
   font-size: 24px;
   font-family: 'Sofia';
   color: #fff;
-
   animation: type 4s steps(38, end);
   overflow: hidden;
   white-space: nowrap;
 }
 
 @keyframes type {
-  from { width: 0; }
-  to {width: 100%;}
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
-.topnav {
-  text-align: center;
-  background-color: transparent;
-  margin-top: 80px;
-  overflow: hidden;
-}
-.topnav .topnav-centered a{
-  font-family: 'Acme';
-  color: #A72611;
-  text-decoration: underline;
-  padding: 24px 56px;
-  font-size: 30px;
-}
-.topnav a:hover {
-  background-color: #A72611;
-  color: #fff;
-}
-.topnav a.active {
-  background-color: #A72611;
-  color: white;
-}
-.page-footer{
+.page-footer {
   position: fixed;
   bottom: 0;
   margin-bottom: 10px;
 }
+
 .page-footer img {
   margin-bottom: 8px;
 }
+
 .panel-footer {
   padding-top: 50px;
   padding-left: 50px;
@@ -80,7 +104,8 @@ body{
   font-size: 20px;
   color: #fff;
 }
-.page-footer .footer-copyright{
+
+.page-footer .footer-copyright {
   padding-top: 20px;
   text-align: center;
   background-color: #A72611;
@@ -88,34 +113,47 @@ body{
   font-family: 'Acme';
   font-size: 20px;
 }
+
 .footer-copyright a {
   color: #fff;
   text-decoration: underline;
 }
-.page-footer h3{
+
+.page-footer h3 {
   font-family: 'Acme';
 }
+
 .social ul li {
   list-style-type: none;
   display: inline;
 }
+
 .social {
   text-align: center;
 }
-.footer-image{
+
+.social .btn-floating .fa-circle {
+  color: transparent;
+}
+
+.footer-image {
   margin-top: 40px;
 }
+
 .sitemap ul li {
   list-style-type: none;
   padding: 6px;
   text-decoration: underline;
 }
+
 .sitemap a {
   color: #fff;
 }
+
 .sitemap a:hover {
   color: #ffb3b3;
 }
-.contact-info{
+
+.contact-info {
   text-align: center;
 }
