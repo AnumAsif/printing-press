@@ -6,9 +6,9 @@
 ![Httpprint](https://thumbs.gfycat.com/EnchantingGrandioseBluebottlejellyfish-max-1mb.gif)
 
 #### Set-up instructions:
- 1.To fork this project open the repository and on the right side you will see a button written 'fork'.
- 2.Click on it to start the copying process of this project.Clickig on the 'fork' button needs you to choose the account you want to fork this project to.
-3.Choose your username.When the forking process is done you need to clone.Go to your terminal and use the 'git clone' command to clone the project to your prefered destination in your computer.
+ 1.To fork this project open the repository and on the right side you will see a button written `fork`.
+ 2.Click on it to start the copying process of this project.Clickig on the `fork` button needs you to choose the account you want to fork this project to.
+3.Choose your username.When the forking process is done you need to clone.Go to your terminal and use the `git clone` command to clone the project to your prefered destination in your computer.
 **N.B:**
 > *Ensure repository link has your username in it to ensure you do not clone the wrong repository*
 
@@ -22,7 +22,7 @@
 ##### Bugs
     There are currently no known bugs
 
-##### ✨ Contributors ✨
+##✨ Contributors ✨
     
 
  [<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br /><sub><b>

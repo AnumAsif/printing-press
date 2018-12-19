@@ -1,14 +1,192 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>FeedBack forms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/forms.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .checked {
+      color: orange;
+    }
+    </style>
+    </head>
     
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="intro">
+    <h1>Customer Experince Feedback Forms</h1>
+    <p>Dear esteemed customer,</p>
+    <P>We'll highly appreciate your feedback</P>
+    <div class="form-group">
+        <label for="name">Name*</label>
+        <input class="form-control" type="text" id="customerName" placeholder="Enter Your Name" />
+    </div>
+    <div class="form-group">
+        <label for="name">Email*</label>
+        <input class="form-control" type="text" id="customerEmail" placeholder="Enter Your Email" />
+    </div>
+    <div class="form-group">
+        <label for="name">Phone Number*</label>
+        <input class="form-control" type="text" id="customerNumber" placeholder="Enter Your PhoneNumber" />
+    </div>
+    <label for="exam">date services were offered:</label>
+    <input id="exam" class="form-control" type="date" />
+    <button id="start-btn" class="btn">Submit</button>
+    <p id="no-details" >
+        Please <strong>ENTER</strong> your name
+    </p>
+    </div>
+    <div class="feedback">
+        <p>1:How would you rate us</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        
+        <br>
+        <p>2:Did you find our online services convinient?</p>
+        <P><em>*required if online services were used</em></P>
+        <button type=submit id="thumbs up">Yes</button>
+        <img src="https://media1.tenor.com/images/4f164fc9de94ae29aa3f3f144f14441a/tenor.gif?itemid=5286441" width=50px
+            height=80px>
+        <button type=submit id="thumbs up">No</button>
+        <img src="https://static1.squarespace.com/static/52f9c7fae4b0c9832bf23a80/5932fff1b8a79b17e22397d0/593303ade4fcb5fe43350386/1496515575701/356736577773.gif"
+            width=50px height=80px>
+        <div class="suggestion">
+            <label for="name">Suggestion*</label>
+            <input class="form-control" type="text" id="Suggest" placeholder="How can we improve our services" />
+        </div>
+        <br>
+        <div class="question3">
+        <p>3:Would you recommend this company to your friends?</p>
+
+                <div class="answer">
+                  <div class="form-group">
+                    <label for="recommend">
+                      <input value="yes" type="radio" name="recommend" id="yes" />
+                      <span class="recommend"></span>Yes,I loved your services</label>
+                  </div>
+                  <div class="form-group">
+                    <label for="no">
+                      <input value="no" type="radio" name="recommend" id="no" />
+                      <span class="circle"></span>No,the services are poor</label>
+                    
+                  </div>
+                  <div class="form-group">
+                    <label for="maybe">
+                      <input value="maybe" type="radio" name="recommend" id="maybe" />
+                      <span class="circle"></span>Maybe,I'm not sure</label>
+                    
+                    </div>
+                  </div>
+                </div>
+       <br>
+       <div class="question4">
+        <p>4:Would you use our services again? </p>
+        <div class="answer">
+          <div class="form-group">
+            <label for="recommend">
+              <input value="yes" type="radio" name="recommend" id="yes" />
+              <span class="recommend"></span>Yes,I loved your services</label>
+          </div>
+          <div class="form-group">
+            <label for="no">
+              <input value="no" type="radio" name="recommend" id="no" />
+              <span class="circle"></span>No,the services are poor</label>
+            
+          </div>
+          <div class="form-group">
+            <label for="maybe">
+              <input value="maybe" type="radio" name="recommend" id="maybe" />
+              <span class="circle"></span>Maybe,I'm not sure</label>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="watermark"><p id="background"><img src="https://previews.123rf.com/images/enterline/enterline1601/enterline160100615/50435289-the-word-print-written-in-isolated-vintage-wooden-letterpress-type-on-a-white-background-.jpg" ></p></div>
+      
+      
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
