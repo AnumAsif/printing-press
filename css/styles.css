@@ -411,7 +411,7 @@ body {
   border: 0px;
   box-shadow: 0px 0px;
 }
-/*Order Online*/
+/*Order Online - Request Quote form*/
 .requestQuote .panel-info {
   border-color: transparent;
 }
@@ -448,6 +448,44 @@ body {
   background: white;
   border: 2px solid #A72611;
 }
+/*Order Online - Place form*/
+.placeOrder .panel-info {
+  border-color: transparent;
+}
+
+.placeOrder label{
+  font-size: 18px;
+  color: #A72611;
+}
+.placeOrder .form-control {
+  margin: 0 auto;
+  width: 500px;
+  color: black;
+  color: #A72611;
+}
+.placeOrder {
+  text-align: center;
+  color: black;
+}
+.placeOrder h1 {
+  color: #fff;
+}
+.placeOrder .panel-info .panel-heading {
+  background-color: #A72611;
+  border-color: #A72611;
+}
+.placeOrder .btn {
+  font-size: 22px;
+  color: #fff;
+  background-color: #A72611;
+  font-family: 'Lato'
+}
+#placeOrderbtn:hover {
+  color: #A72611;
+  background: white;
+  border: 2px solid #A72611;
+}
+
 /*map*/
 .contactHeading{
   text-align: center;
@@ -501,9 +539,12 @@ body {
   background: white;
   border: 2px solid #A72611;
 }
+.contactForm .panel-info {
+  border-color: transparent;
+}
 .contactForm .form-group {
   margin: 0 auto;
-  width: 800px;
+  width: 100%;
   color: black;
   color: #A72611;
 }
