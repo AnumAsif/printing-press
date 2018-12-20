@@ -1,8 +1,7 @@
 body {
   background: url(../images/press_bg.jpg);
   background-size: cover;
-  /* display: inline; */
-
+  display: inline;
 }
 
 .logo {
@@ -30,7 +29,7 @@ body {
 
 @keyframes type {
   0% {
-    width: 0;
+    width: 100;
   }
 
   100% {
@@ -63,11 +62,17 @@ body {
   color: white;
 }
 
- h1{
-text-align: center;
+h1 {
+  text-align: center;
 }
 
-#ricoh{
+#ricoh {
   height: 450px;
   width: 700px;
+}
+
+#myCarousel {
+  color: #A72611;
+  font-size: 18px;
+  border-radius: 50%;
 }
