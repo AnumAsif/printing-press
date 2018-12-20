@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   var form = $("#requestQuotation");
   $("#requestQuotation").submit(function(event){
@@ -39,7 +38,10 @@ $(document).ready(function(){
   //End of submit form function
 //Fridah///////..............................................................
 // Question one
+<<<<<<< HEAD
 
+=======
+>>>>>>> b17468b2bd777842a5003a39e377e448dfd373db
     $("#start-btn").click(function(){
     event.preventDefault();
     var userName = $("#customerName").val();
