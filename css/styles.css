@@ -229,7 +229,7 @@ body {
   border-color: transparent;
 }
 
-.form-control {
+.intro .form-control {
   margin: 0 auto;
   width: 250px;
   color: black;
@@ -409,4 +409,100 @@ body {
 .thankyou .panel {
   border: 0px;
   box-shadow: 0px 0px;
+}
+/*Order Online*/
+.requestQuote .panel-info {
+  border-color: transparent;
+}
+
+.requestQuote label{
+  font-size: 18px;
+  color: #A72611;
+}
+.requestQuote .form-control {
+  margin: 0 auto;
+  width: 500px;
+  color: black;
+  color: #A72611;
+}
+.requestQuote {
+  text-align: center;
+  color: black;
+}
+.requestQuote h1 {
+  color: #fff;
+}
+.requestQuote .panel-info .panel-heading {
+  background-color: #A72611;
+  border-color: #A72611;
+}
+.requestQuote .btn {
+  font-size: 22px;
+  color: #fff;
+  background-color: #A72611;
+  font-family: 'Lato'
+}
+#quotebtn:hover {
+  color: #A72611;
+  background: white;
+  border: 2px solid #A72611;
+}
+/*map*/
+.contactHeading{
+  text-align: center;
+}
+.page-header{
+  padding: 10px;
+  border-color: #A72611;
+  background-color: #A72611;
+  font-family: 'Acme';
+  color: #fff;
+}
+.page-header h1 {
+  font-size: 30px;
+}
+.contactIntro .panel{
+  border: 0px;
+}
+.contactIntro h4{
+  font-family: 'Acme';
+  font-size: 20px;
+  text-decoration: underline;
+}
+.contactIntro p {
+  font-family: 'Lato';
+  font-size: 18px;
+}
+.contactSocial ul li {
+  list-style-type: none;
+  display: inline;
+}
+.contactSocial {
+  float: left;
+}
+.contactSocial .btn-floating .fa-circle {
+  color: #A72611;
+}
+.contactForm form {
+  margin: 0 auto;
+  width: 250px;
+  color: black;
+  color: #A72611;
+}
+.contactForm .btn {
+  font-size: 22px;
+  color: #fff;
+  background-color: #A72611;
+  font-family: 'Lato'
+}
+#sendContact:hover {
+  color: #A72611;
+  background: white;
+  border: 2px solid #A72611;
+}
+.contactForm .form-group {
+  margin: 0 auto;
+  width: 800px;
+  color: black;
+  color: #A72611;
 }
