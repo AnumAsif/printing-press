@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>PRINTING PRESS</title>
 </head>
 
 <body>
-  <div class="container">
+
     <!-- Top Navigation -->
     <div class="navBar">
       <div class="row">
@@ -35,11 +35,11 @@
                   <ul class="dropdown-menu">
                     <li><a href="orderonline.html">Request Quotation</a></li>
                     <li class="divider"></li>
-                    <li><a href="orderonline.html#placeorder">Place an Order</a></li>
+                    <li><a href="orderonline.html">Place an Order</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="index.html" data-toggle="dropdown" class="dropdown-toggle active">Home <b class="caret"></b></a>
+                  <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Home <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="index.html">Home</a></li>
                     <li class="divider"></li>
@@ -49,7 +49,7 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Contact <b class="caret"></b></a>
+                  <a href="feedbackform.html" data-toggle="dropdown" class="dropdown-toggle active">Contact <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="contactmap.html">Contact us</a></li>
                     <li class="divider"></li>
@@ -67,13 +67,147 @@
         </div>
       </div>
     </div>
+
     <!--End Top Navigation-->
+  <div class="container">
+    <div class="main">
+      <div class="intro">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h1>Customer Experience Feedback Forms</h1>
+            <h4>Dear esteemed customer, <br>We'll highly appreciate your feedback</h4>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="name">Name*</label>
+              <input class="form-control" type="text" id="customerName" placeholder="Enter Your Name" />
+            </div>
+            <div class="form-group">
+              <label for="name">Email*</label>
+              <input class="form-control" type="text" id="customerEmail" placeholder="Enter Your Email" />
+            </div>
+            <div class="form-group">
+              <label for="name">Phone Number*</label>
+              <input class="form-control" type="number" id="customerNumber" placeholder="Enter Your PhoneNumber" />
+            </div>
+            <label for="exam">Date services were offered:</label>
+            <input id="exam" class="form-control" type="date" />
+            <br>
+            <button id="start-btn" class="btn">Go to form</button>
+            <p id="no-details">
+              DETAILS <strong>MUST</strong> BE ENTERED.
+              <em>NOTE:Details are strictly confidential</em>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="feedback">
+        <div class="panel panel-info">
+          <div class="panel-body">
+            <div class="questions">
+              <p>1:How would you rate us</p>
+
+              <form id="ratingForm">
+                <fieldset class="rating">
+                  <input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+                  <input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+                  <input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+                  <input type="radio" id="star2" name="rating" value="2" /><label for="star2">2stars</label>
+                  <input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+                </fieldset>
+                <br>
+                <div id="status"></div>
+                <br>
+                <div class="clearfix"></div>
+                <button class="submit clearfix">Click here to rate✨</button>
+              </form>
+
+              <br>
+              <p>2:Did you find our online services convinient?</p>
+              <P><em>*required if online services were used</em></P>
+              <button type=submit id="thumbsup">Yes</button>
+              <div class="thumbsup">
+                <img src="https://media.tenor.com/images/d9a67de0c7863d8755558798ce5289d5/tenor.gif" width=100px height=80px>
+              </div>
+              <button type=submit id="thumbsdown">No</button>
+              <div class="thumbsdown">
+                <img src="https://static1.squarespace.com/static/52f9c7fae4b0c9832bf23a80/5932fff1b8a79b17e22397d0/593303ade4fcb5fe43350386/1496515575701/356736577773.gif" width=50px height=80px>
+              </div>
+              <div class="suggestion">
+                <div class="suggest">
+                  <label for="name">Suggestion*</label>
+                  <input class="form-control" type="text" id="Suggest" placeholder="How can we improve our services" />
+                </div>
+              </div>
+              <br>
+              <div class="question3">
+                <p>3:Would you recommend this company to your friends?</p>
+
+                <div class="answer">
+                  <div class="form-group">
+                    <label for="recommend" class="container">
+                      <input value="yes" type="radio" name="recommend" id="yes" checked="checked" />
+                      <span class="checkmark"></span>Yes,I loved your services</label>
+                  </div>
+                  <div class="form-group">
+                    <label for="no" class="container">
+                      <input value="no" type="radio" name="recommend" id="no" />
+                      <span class="checkmark"></span>No,the services are poor</label>
+
+                  </div>
+                  <div class="form-group">
+                    <label for="maybe" class="container">
+                      <input value="maybe" type="radio" name="recommend" id="maybe" />
+                      <span class="checkmark"></span>Maybe,I'm not sure</label>
+
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="question4">
+                <p>4:Would you use our services again? </p>
+                <div class="answer">
+                  <div class="form-group">
+                    <label for="recommend" class="container">
+                      <input value="yes" type="radio" name="redo" id="yes" checked="checked" />
+                      <span class="checkmark"></span>Yes,I loved your services</label>
+                  </div>
+                  <div class="form-group">
+                    <label for="no" class="container">
+                      <input value="no" type="radio" name="redo" id="no" />
+                      <span class="checkmark"></span>No,the services are poor</label>
+
+                  </div>
+                  <div class="form-group">
+                    <label for="maybe" class="container">
+                      <input value="maybe" type="radio" name="redo" id="maybe" />
+                      <span class="checkmark"></span>Maybe,I'm not sure</label>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <button type="submit" id="finished" class="submit">Submit FeedBack Form</button>
+
+          </div>
+          <div class="thankyou">
+            <div class="panel panel-info">
+              <div class="panel-body">
+                <p id=thanks>Thankyou for you feedback</p>
+                <img src="https://www.amazing-animations.com/animations/thanks18.gif">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
 
-
-
-
-  </div>
+    </div>
+  </div><!--End of Container-->
   <!--Footer-->
   <footer class="page-footer">
     <div class="container-fluid">
