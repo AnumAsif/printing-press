@@ -4,10 +4,16 @@ function initMap() {
     center: {lat: -1.277335, lng: 36.818145},
     zoom: 8
   });
+  var marker = new google.maps.Marker({
+    position:{lat: -1.277335, lng: 36.818145},
+    map:map,
+    icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+    // icon:'accounting.svg'
+  })
   var contentString = '<div id="content">'+
               '<div id="siteNotice">'+
               '</div>'+
-              '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+              '<h1 id="firstHeading" class="firstHeading">EPW</h1>'+
               '<div id="bodyContent">'+
               '<p><b>EXECUTIVE Printing Works ltd(EPW) - Mission:</b><br>Our Mission is to provide high quality print services ' +
               'services to our clients with timely delivery and customer satisfaction. '+
@@ -18,16 +24,13 @@ function initMap() {
               '<p>EPW, <a href="https://http://executive.office-on-the.net/">'+
               '</div>'+
               '</div>';
-  var marker = new google.maps.Marker({
-    position:{lat: -1.277335, lng: 36.818145},
-    map:map,
-    icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-    // icon:'accounting.svg'
-  })
   var locationInfo = new google.maps.InfoWindow({
-    content: contentString
+    content:contentString
   });
   marker.addListener('click', function(){
-    locationInfo.open(map, this);
+    locationInfo.open(map, marker);
   })
 }
+$(document).ready(function(){
+  $(initMap)
+})
