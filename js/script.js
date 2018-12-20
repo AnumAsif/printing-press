@@ -2,13 +2,12 @@ var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -1.277335, lng: 36.818145},
-    zoom: 8
+    zoom: 18
   });
   var marker = new google.maps.Marker({
     position:{lat: -1.277335, lng: 36.818145},
     map:map,
     icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-    // icon:'accounting.svg'
   })
   var contentString = '<div id="content">'+
   '<div id="siteNotice">'+

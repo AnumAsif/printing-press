@@ -7,10 +7,10 @@
     position: relative;
 
 }
-h1{
+.intro h1{
     border-radius:3px;
     width: 50%;
-    color:#A72611;   
+    color:#A72611;
 }
 #no-details{
   display:none;
@@ -30,11 +30,11 @@ margin-right:-4%;
 }
 .intro{
     margin-right: 50%;
-    color:black;   
+    color:black;
 }
 .form-control{
-    color:black;   
-    
+    color:black;
+
 }
 body{
     background: url(../images/press_bg.jpg);
@@ -56,17 +56,17 @@ body{
     font-size: 30px;
     font-family: 'Sofia';
     color: #000;
-  
+
     animation: type 4s steps(38, end);
     overflow: hidden;
     white-space: nowrap;
   }
-  
+
   @keyframes type {
     0% { width: 0; }
     100% {width: 38ch;}
   }
-  
+
   .topnav {
     text-align: center;
     background-color: transparent;
@@ -124,7 +124,7 @@ color: #A72611;
   color:#A72611;
   background: white;
     border: 2px solid #A72611;
-  
+
 }
 .submit,#thumbsup,#thumbsdown{
   color: white;
@@ -143,11 +143,11 @@ color: #A72611;
   border: 2px solid #A72611;
 }
 .container input {
-    opacity: 15; 
+    opacity: 15;
     cursor: pointer;
    color: #A72611 ;
 
-    
+
 }
 .container input:checked ~ .checkmark{
     background-color: #A72611 ;
@@ -156,7 +156,7 @@ color: #A72611;
     float:left;
 }
 
-/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
    follow these rules. Every browser that supports :checked also supports :not(), so
    it doesn’t make the test unnecessarily selective */
 .rating:not(:checked) > input {

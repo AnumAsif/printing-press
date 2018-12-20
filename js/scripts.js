@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // <<<<<<< HEAD
 var map;
 function initMap() {
@@ -34,6 +35,8 @@ function initMap() {
 }
 // =======
 
+=======
+>>>>>>> b17468b2bd777842a5003a39e377e448dfd373db
 $(document).ready(function(){
   var form = $("#requestQuotation");
   $("#requestQuotation").submit(function(event){
@@ -74,7 +77,6 @@ $(document).ready(function(){
   //End of submit form function
 //Fridah///////..............................................................
 // Question one
-$(document).ready(function() {
     $("#start-btn").click(function(){
     event.preventDefault();
     var userName = $("#customerName").val();
@@ -130,5 +132,8 @@ $(document).ready(function() {
   });
 
 });
+<<<<<<< HEAD
 
 // >>>>>>> f57a17d5defdf9b4005aec6e9b122b1b363e98a0
+=======
+>>>>>>> b17468b2bd777842a5003a39e377e448dfd373db
