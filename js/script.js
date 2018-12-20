@@ -11,19 +11,19 @@ function initMap() {
     // icon:'accounting.svg'
   })
   var contentString = '<div id="content">'+
-              '<div id="siteNotice">'+
-              '</div>'+
-              '<h1 id="firstHeading" class="firstHeading">EPW</h1>'+
-              '<div id="bodyContent">'+
-              '<p><b>EXECUTIVE Printing Works ltd(EPW) - Mission:</b><br>Our Mission is to provide high quality print services ' +
-              'services to our clients with timely delivery and customer satisfaction. '+
-              'The passion we have for our work enables us to undertake of our clients '+
-              'jobs. We constantly strive to deliver the highest-quality products possible. '+
-              'There is no greater satisfaction than delivering a finished product '+
-              'that helps a client reach their goals and objectives. '+
-              '<p>EPW, <a href="https://http://executive.office-on-the.net/">'+
-              '</div>'+
-              '</div>';
+  '<div id="siteNotice">'+
+  '</div>'+
+  '<h1 id="firstHeading" class="firstHeading">EPW</h1>'+
+  '<div id="bodyContent">'+
+  '<p><b>EXECUTIVE Printing Works ltd(EPW) - Mission:</b><br>Our Mission is to provide high quality print services ' +
+  'services to our clients with timely delivery and customer satisfaction. '+
+  'The passion we have for our work enables us to undertake of our clients '+
+  'jobs. We constantly strive to deliver the highest-quality products possible. '+
+  'There is no greater satisfaction than delivering a finished product '+
+  'that helps a client reach their goals and objectives. '+
+  '<p>EPW, <a href="https://http://executive.office-on-the.net/">'+
+  '</div>'+
+  '</div>';
   var locationInfo = new google.maps.InfoWindow({
     content:contentString
   });
