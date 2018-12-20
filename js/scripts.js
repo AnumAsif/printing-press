@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   var form = $("#requestQuotation");
   $("#requestQuotation").submit(function(event){
