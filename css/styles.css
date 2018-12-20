@@ -1,5 +1,5 @@
 body {
-  background: url(../images/press_bg.jpg);
+  /* background: url(../images/press_bg.jpg); */
   background-size: cover;
   display: inline;
 
@@ -62,11 +62,25 @@ body {
   background-color: #A72611;
   color: white;
 }
-* {box-sizing: border-box;}
+
+
+ }
+
+}
+* {
+ box-sizing: border-box;
+}
 
 .slideshow-container{
   margin: auto;
   position: relative;
-  max-width: 100%;
-
+  max-width: 90%;
+font-color: #A72611;
+}
+h1{
+  text-align: center;
+}
+#ricoh{
+  height: 450px;
+  width: 700px;
 }
