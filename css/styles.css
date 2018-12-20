@@ -500,9 +500,12 @@ body {
   background: white;
   border: 2px solid #A72611;
 }
+.contactForm .panel-info {
+  border-color: transparent;
+}
 .contactForm .form-group {
   margin: 0 auto;
-  width: 800px;
+  width: 100%;
   color: black;
   color: #A72611;
 }
