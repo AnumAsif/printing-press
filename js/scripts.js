@@ -25,10 +25,9 @@ $(document).ready(function() {
         }
     })
 })
-});
 
 //question 2
-$(document).ready(function(){
+
    $("#thumbsup").click(function(){
         $("#thumbsup").hide();
         $("#thumbsdown").hide()
@@ -41,14 +40,13 @@ $(document).ready(function(){
         $(".thumbsdown").show();
         $(".suggest").show();
     })
-  });
+    
   //question 3 and 4
   
   var feedbacks = ["recommendation","redo"];
   feedbacks.forEach(function(feedback) {
     var userValue = $("input:radio[name=" + feedback + "]:checked").val();
   });
-  $(document).ready(function(){
   $("#finished").click(function(){
       $(".questions").hide();
     $(".thankyou").show();

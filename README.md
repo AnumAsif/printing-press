@@ -1,7 +1,7 @@
-# Printing Press
+# Executive Printing Works ltd
 
 ### Description
-*This is a website for a Start-up **Printing Press** company.It includes a description of various services offered by the company,a google map of its current location,contact details and a feedback form* 
+*This is a website for a **Printing Press** company.It includes a description of various services offered by the company,a google map of its current location,contact details and a feedback form* 
 
 ![Httpprint](https://thumbs.gfycat.com/EnchantingGrandioseBluebottlejellyfish-max-1mb.gif)
 
@@ -22,13 +22,25 @@
 ##### Bugs
     There are currently no known bugs
 
-##✨ Contributors ✨
+##### BDD:
+ #### Website Specifications
+|     INPUT                                  |      OUTPUT
+|--------------------------------------------|-------------------------------------------------------|
+|click on order online|Takes you to a page where you can place your order or request a quote|
+|click on home | Takes you to an about us and services buttons|
+|Click on About us button|View more details about the company and contact information including a map for location|
+|Click on service button|View the various services offered by the company|
+|Click on contact|Takes you to the contact us and feedback buttons|
+
+  ----------------------------------------------------------------------------------------------
+
+## ✨ Contributors ✨
     
 
  [<img src="https://anumasif.github.io/portfolio/images/profile-pic.jpg" width="100px;"/> <br /><sub><b>
  Anum Asif</b></sub>](https://github.com/AnumAsif) <br> [<img src="https://avatars2.githubusercontent.com/u/43410875?s=460&v=4" width="100px;"/> <br /> <sub><b>NkiroteKim <b></sub>](https://github.com/NkiroteKim) <br>  [<img  src="https://stella-ndirangu.github.io/Portfolio/images/me2.jpg" width="100px;"/>
    <br /><sub><b>stella-ndirangu</sub></b>](https://github.com/stella-ndirangu)  <br>[<img src="https://avatars2.githubusercontent.com/u/8039543?s=460&v=4" width="100px;"/> 
-   <br /><sub><b>Dayud Mohamed Farah</sub></b>](https://github.com/jinka) <br> [<img src="https://qmuuoryan.github.io/ryan-project/images/papi.jpg" width="100px;"/> 
+   <br /><sub><b>Dayud Mohamed Farah</sub></b>](https://github.com/jinka) <br> [<img src="https://avatars0.githubusercontent.com/u/45202848?s=460&v=4" width="100px;"/> 
    <br /><sub><b>Ryan  Muuo</sub><b>](https://github.com/qmuuoryan) 
 
     
@@ -38,7 +50,7 @@
 
 [MIT] (License)
 
-Copyright (c) [2018] [AnumAsif]
+Copyright (c) [2018] [Executive Printing works ltd]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
