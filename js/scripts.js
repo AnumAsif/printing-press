@@ -1,4 +1,12 @@
 $(document).ready(function(){
+  // $("a #request").click(){
+  //   $("#requestQuote").show();
+  //   $("#placeOrder").hide();
+  // }
+  // $("a #order").click(){
+  //   $("#placeOrder").show();
+  //   $("#requestQuote").hide();
+  // }
   var form = $("#requestQuotation");
   $("#requestQuotation").submit(function(event){
     event.preventDefault();
@@ -38,10 +46,8 @@ $(document).ready(function(){
   //End of submit form function
 //Fridah///////..............................................................
 // Question one
-<<<<<<< HEAD
 
-=======
->>>>>>> b17468b2bd777842a5003a39e377e448dfd373db
+
     $("#start-btn").click(function(){
     event.preventDefault();
     var userName = $("#customerName").val();

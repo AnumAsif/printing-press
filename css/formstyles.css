@@ -11,3 +11,6 @@
 .panel-heading{
   background-color: #FCBA8F  ;
 }
+#placeOrder, #requestQuote{
+  display:none;
+}
