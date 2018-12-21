@@ -46,6 +46,7 @@ $(document).ready(function(){
   //
   // });
     $("#requestQuotation").submit(function(event){
+        $('#formMessage').text("Thankyou!! your request has been received. You will be contacted soon through your provided contact details");
     event.preventDefault();
     var formData = $("#requestQuotation").serialize();
     $.ajax({
@@ -64,7 +65,7 @@ $(document).ready(function(){
       $('#itemDetails').val('');
       $('#quantity').val('');
       $('#quotationDetails').val('');
-
+      $('#formMessage').text("Thankyou!! your request has been received. You will be contacted soon through your provided contact details");
       // $('#file').val('');
     })
     .fail(function(data){
@@ -80,6 +81,7 @@ $(document).ready(function(){
   });
   // ........2nd form.........................................//
   $("#placeOrderForm").submit(function(event){
+      $('#formMessage2').text('Thankyou!!! Your order has been received by Executive Printing Works Ltd. You will receive a confirmation email once your order is accepted');
   event.preventDefault();
   var formData = $("#placeOrderForm").serialize();
   $.ajax({
@@ -99,7 +101,7 @@ $(document).ready(function(){
     $('#quantity2').val('');
     $('#referenceNo').val('');
     $('#orderDetails').val('');
-
+    $('#formMessage2').text('Thankyou!!! Your order has been received by Executive Printing Works Ltd. You will receive a confirmation email once your order is accepted');
     // $('#file').val('');
   })
   .fail(function(data){
@@ -182,6 +184,6 @@ $(document).ready(function(){
     $("#finished").hide();
   });
   // .......................................feedback formM
-  
+
 
 });
