@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-// <<<<<<< HEAD
+
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -33,18 +32,26 @@ function initMap() {
     locationInfo.open(map, this);
   })
 }
-// =======
 
-=======
->>>>>>> b17468b2bd777842a5003a39e377e448dfd373db
+/////////////////////////////anum
 $(document).ready(function(){
-  var form = $("#requestQuotation");
-  $("#requestQuotation").submit(function(event){
+  // $("#request").click(function(){
+  //   $(".requestQuote").show();
+  //   $(".placeOrder").hide();
+  // });
+  //
+  // $("#order").click(function(){
+  //   $("#requestQuote").hide();
+  //   $("#placeOrder").show();
+  //
+  // });
+    $("#requestQuotation").submit(function(event){
+        $('#formMessage').text("Thankyou!! your request has been received. You will be contacted soon through your provided contact details");
     event.preventDefault();
     var formData = $("#requestQuotation").serialize();
     $.ajax({
         type: 'POST',
-        url:$(form).attr('action'),
+        url:$("#requestQuotation").attr('action'),
         data: formData
     })
     .done(function(response){
@@ -58,10 +65,8 @@ $(document).ready(function(){
       $('#itemDetails').val('');
       $('#quantity').val('');
       $('#quotationDetails').val('');
-      $('#file').val('');
-      // $('#').val('');
-      // $('#').val('');
-      // $('#').val('');
+      $('#formMessage').text("Thankyou!! your request has been received. You will be contacted soon through your provided contact details");
+      // $('#file').val('');
     })
     .fail(function(data){
       $("#formMessage").removeClass('success');
@@ -74,9 +79,60 @@ $(document).ready(function(){
     });
     //end of ajax function
   });
+  // ........2nd form.........................................//
+  $("#placeOrderForm").submit(function(event){
+      $('#formMessage2').text('Thankyou!!! Your order has been received by Executive Printing Works Ltd. You will receive a confirmation email once your order is accepted');
+  event.preventDefault();
+  var formData = $("#placeOrderForm").serialize();
+  $.ajax({
+      type: 'POST',
+      url:$("#placeOrderForm").attr('action'),
+      data: formData
+  })
+  .done(function(response){
+    $("#formMessage2").removeClass('error');
+    $("#formMessage2").addClass('success');
+    $("#formMessage2").text(response);
+
+    $('#customerName2').val('');
+    $('#phoneNumber2').val('');
+    $('#email2').val('');
+    $('#itemDetails2').val('');
+    $('#quantity2').val('');
+    $('#referenceNo').val('');
+    $('#orderDetails').val('');
+    $('#formMessage2').text('Thankyou!!! Your order has been received by Executive Printing Works Ltd. You will receive a confirmation email once your order is accepted');
+    // $('#file').val('');
+  })
+  .fail(function(data){
+    $("#formMessage2").removeClass('success');
+    $("#formMessage2").addClass('error');
+    if (data.responseText !== ''){
+      $("#formMessage2").text(data.responseText);
+    }else{
+      $("#formMessage2").text('Oops! An error occured and your message could not be sent.');
+    }
+  });
+  //end of ajax function
+});
   //End of submit form function
+  $(".radio").click(function(){
+    var value = $("input:radio[name=lpo]:checked").val();
+    if(value == "YES"){
+      $(".optional").show();
+    }else{
+      $(".optional").hide();
+    }
+  });
+
+
 //Fridah///////..............................................................
 // Question one
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> e2c17a775b69269b1640d0839a3ca3af16a61677
     $("#start-btn").click(function(){
     event.preventDefault();
     var userName = $("#customerName").val();
@@ -130,10 +186,7 @@ $(document).ready(function(){
     $(".thankyou").show();
     $("#finished").hide();
   });
+  // .......................................feedback formM
+
 
 });
-<<<<<<< HEAD
-
-// >>>>>>> f57a17d5defdf9b4005aec6e9b122b1b363e98a0
-=======
->>>>>>> b17468b2bd777842a5003a39e377e448dfd373db

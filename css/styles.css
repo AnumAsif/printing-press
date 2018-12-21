@@ -25,6 +25,7 @@ body {
 }
 
 #myNavbar {
+
   background-color: transparent;
   font-family: 'Acme';
   text-decoration: underline;
@@ -493,7 +494,8 @@ body {
   padding: 10px;
   border-color: #A72611;
   background-color: #A72611;
-  font-family: 'Acme';
+  font-family: 'Acme';  animation: blinker 2s linear infinite;
+  font-size: 130%;
   color: #fff;
 }
 .page-header h1 {
@@ -546,4 +548,17 @@ body {
   width: 100%;
   color: black;
   color: #A72611;
+}
+/* //////////////////////anum */
+.optional {
+  display: none;
+}
+#formMessage{
+  animation: blinker 2s linear infinite;
+  font-size: 130%;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
