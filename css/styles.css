@@ -90,7 +90,53 @@ body {
     width: 100%;
   }
 }
+/* Carousel CSS*/
+#myCarousel {
+  color: #A72611;
+  font-size: 18px;
+  border-radius: 50%;
+}
+/* About Us */
+#about {
+  text-align: center;
+  background-color: #fff;
+  font-family: 'Lato';
+}
+#about ul li {
+  list-style-type: none;
 
+}
+#about h2{
+  text-decoration: underline;
+}
+#about h1 {
+  font-size: 40px;
+  font-family: 'Acme';
+  animation: type 4s steps(38, end);
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes heading {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+.item img {
+  width: 100%;
+}
+#about .clients p{
+  text-align: left;
+}
+#about .clients ul li{
+  text-align: left;
+}
+#about .clients ul li {
+  list-style-type: decimal;
+}
 .page-footer {
   flex-shrink: 0;
   bottom: 0px;
