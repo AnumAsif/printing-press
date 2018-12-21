@@ -128,11 +128,6 @@ $(document).ready(function(){
 
 //Fridah///////..............................................................
 // Question one
-
-<<<<<<< HEAD
-
-=======
->>>>>>> e2c17a775b69269b1640d0839a3ca3af16a61677
     $("#start-btn").click(function(){
     event.preventDefault();
     var userName = $("#customerName").val();
